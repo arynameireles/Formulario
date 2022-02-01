@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Atividade 03</title>
+    <link rel="stylesheet" href="stylee.css" />
+</head>
+
+<body>
+    
+    <h2><center><b>Formulário</b></center></h2>
+    
+
+<form action="paginas/loguin.html" method="POST">    
+    
+<br><br><br>
+   
+<fieldset class="borda">
+
+<br><br>
+
+<fieldset class="primeira">
+        
+    <legend class="dados"><b> &nbsp;&nbsp;Dados Pessoais&nbsp;&nbsp; </b></legend>
+
+    <br><br>
+        
+    <label for="nome" id="lnome"><b>Nome Completo: *</b></label> <br>
+        <input type="text" name="nome" id="nome"  maxlength="100"  required/> 
+
+    <br><br>
+
+    <label for="email" id="lemail"  ><b>Email: *</b></label> <br>
+        <input type="email" name="email" id="email" class="email"  required /> 
+
+    <br><br>
+
+    <label for="cel" id="lcel"><b>Cel: *</b></label> <br>
+        <input type="tel" name="cel" id="cel"  required /> 
+        
+    <br><br>
+
+    <label for="endereco" id="lendereço"><b>Endereço:</b></label> <br>
+        <input type="text" name="endereco" class="end" id="endereco"  /> 
+        
+    <br><br>
+
+    <label for="cep" id="lcep"  ><b>Cep:</b></label> <label for="nascimento" id="lnascimento"  ><b>Data de Nascimento:</b></label><br>
+        <input type="number" name="cep" id="cep" maxlength="8"  />  
+    
+        
+        <input type="date" name="nascimento" id="nascimento" minlength="2004-02-30"   /> 
+
+    <br><br><br><br>
+       
+</fieldset>
+
+ <br><br><br><br>
+
+<fieldset class="segunda">
+        
+    <legend class="dados"><b>&nbsp;&nbsp;Dados Escolares&nbsp;&nbsp;</b></legend>
+
+    <br><br>
+        
+    <label for="cursoum" class="lcurso"><b>Nome do Curso 1: *</b></label><br>
+        <input type="text" name="cursoum" class="cursoum"required id="cursoum"  />
+
+    <br><br>
+
+    <label for="horas1" class="lhoras"><b>Horas: *</b></label> 
+    <!-- label campo "mes conclusão" -->
+    <label for="dataconclusaoum" class="ldatacoclusao"><b>Mês/Ano de Conclusão: *</b></label> <br>
+        <input type="text" name="horas1" class="horasum" required  id="horas1"  />
+        
+
+    
+            <input type="month" name="dataconclusaoum" class="dataconclusao" id="dataconclusaoum"  required />
+
+    <br><br><br><br> 
+    <hr> 
+    <br><br>
+    <label for="cursodois" class="lcurso"><b>Nome do Curso 2: *</b></label><br>
+        <input type="text" name="cursodois" class="cursoum" required id="cursodois"  />
+            
+    <br><br>
+
+    <label for="horas2" class="lhoras" ><b>Horas: *</b></label> 
+    <!-- label campo "mes conclusão" -->
+    <label for="dataconclusaodois" class="ldatacoclusao"><b>Mês/Ano de Conclusão: *</b></label><br>
+        <input type="text" name="horas2" class="horasum"  id="horas2"  required />
+        
+    
+   
+         <input type="month" name="dataconclusaodois" class="dataconclusao" id="dataconclusaodois"   required />
+
+    <br><br><br><br>
+    <hr>       
+    <br><br>
+    <label for="cursotres" class="lcurso" ><b>Nome do Curso 3: *</b></label><br>
+        <input type="text" name="cursotres" class="cursoum" id="cursotres"  required />
+    
+    <br><br>
+
+     <label for="horas3" class="lhoras"><b>Horas: *</b> </label> 
+     <!-- label campo "mes conclusão" -->
+     <label for="dataconclusaotres" class="ldatacoclusao"><b>Mês/Ano de Conclusão: *</b></label> <br>
+        <input type="text" name="horas3" class="horasum"  id="horas3"  required />
+
+    
+        <input type="month" name="dataconclusaotres" class="dataconclusao" id="dataconclusaotres"  required /> 
+        
+    <br><br><br><br>
+
+
+</fieldset>
+
+<br><br><br><br>
+
+<fieldset class="terceira">
+        
+    <legend class="dados" ><b>&nbsp;&nbsp;Dados Profissionais&nbsp;&nbsp;</b></legend>
+    
+    <br><br>
+
+    <label for="empresaum" class="lempresa"><b>Nome da Empresa 1: *</b></label> 
+    <!-- label campo "atual" --> 
+    <label for="atualum" class="latual" ><b>Atual? *</b></label>
+    <!-- label campo "tempo" -->
+    <label for="tempoum" class="ltempo"><b>Tempo de Trabalho: *</b></label><br>
+
+        <input type="text" name="empresaum" class="empresa"  id="empresaum"  required />  
+
+    
+        <select name="atualum" class="atual"  id="atualum"  required >
+            <option value="N">Não</option>
+            <option value="S" selected > Sim </option>
+        </select>
+
+
+    
+        <input type="text" name="tempoum" class="tempo" id="tempoum"  required  /><br><br>
+        
+    <label for="cargoum" class="lcargo"><b>Cargo: </b></label><br>
+        <input type="text" name="cargoum" class="cargo" id="cargoum"  /><br><br>
+        
+
+    <label for="descriçãoum" class="ldescrição"><b>Descrição das Atividades:</b></label><br>
+         <textarea name="descriçãoum" class="descrição" id="descriçãoum"> </textarea>  
+
+    <br><br><br><br>
+    <hr>
+    <br><br>
+
+    <label for="empresadois" class="lempresa"><b>Nome da Empresa 2: *</b></label> 
+    <!-- label campo "atual" -->
+    <label for="atualdois" class="latual"><b>Atual? *</b></label>
+    <!-- label campo "tempo" -->
+    <label for="tempodois" class="ltempo" ><b>Tempo de Trabalho: *</b></label><br>
+    
+         <input type="text" name="empresadois" class="empresa" id="empresadois"  required />  
+
+
+     
+        <select name="atualdois" class="atual"  id="atualdois" required >
+            <option value="N">Não</option>
+            <option value="S" selected > Sim </option>
+        </select>
+
+
+     
+        <input type="text" name="tempodois" class="tempo" id="tempodois"  required /><br><br>
+        
+
+     <label  for="cargodois" class="lcargo"><b>Cargo:</b></label> <br>
+        <input type="text" name="cargodois" class="cargo" id="cargodois"  /><br><br>
+       
+       
+     <label for="descriçãodois" class="ldescrição"><b>Descrição das Atividades:</b></label><br>
+        <textarea name="descriçãodois" class="descrição"  id="descriçãodois"> </textarea>   
+
+    <br><br><br><br>
+     <hr>
+    <br><br> 
+
+    <label for="empresatres" class="lempresa" ><b>Nome da Empresa 3: *</b></label>
+    <!-- label campo "atual" -->
+    <label for="atualtres" class="latual"><b>Atual? *</b></label>
+    <!-- label campo "tempo" -->
+    <label for="tempotres" class="ltempo"><b>Tempo de Trabalho: *</b></label><br>
+         <input type="text" name="empresatres" class="empresa"  id="empresatres" required />  
+    
+    
+    
+    <select name="atualtres" class="atual"  id="atualtres"  required >
+        <option value="N">Não</option>
+        <option value="S" selected > Sim </option>
+    </select>
+    
+    
+    
+       <input type="text" name="tempotres" class="tempo" id="tempotres"  required /><br><br> 
+            
+    
+    <label for="cargotres" class="lcargo"><b>Cargo:</b></label> <br>
+        <input type="text" name="cargotres" class="cargo" id="cargotres"  /><br><br>
+       
+    <label for="descriçãotres" class="ldescrição"><b>Descrição das Atividades:</b></label><br>
+        <textarea name="descriçãotres" class="descrição" id="descriçãotres"> </textarea>   
+
+        
+    <br><br><br><br>
+
+    <h4>* Campo obrigatório.</h4>
+       
+</fieldset>
+
+<br><br>
+
+</fieldset>
+
+<br><br><br>
+
+<input type="checkbox" name="checkbox"  class="aceppt" id="checkbox" required  >  
+<label class="check" for="checkbox"  >Autorizo, desde já, o uso dos dados cadastrais informados.</label> <br>
+<br>
+<button> <b>SALVAR</b>  </button>
+<br><br><br>
+    
+
+</legend>
+    
+
+
+</form>
+    
+
+</body>
+
+<footer>
+
+</footer>
+
+
+</html>

@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=MuseoModerno:wght@500&family=Poppins&family=Zen+Kurenaido&display=swap');   
+
+
+
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: rgb(250, 191, 250);
+    background: linear-gradient(to bottom, #FF0066,#FF1794,#FF36CC,#D92BCC);
+    -webkit-background-clip: text; 
+    background-clip: text;   
+    color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background: linear-gradient(to top,#FF0066,#FF1794,#FF36CC,#D92BCC, #ca97c7,#fdebfc);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    align-items: center;
+
+}
+
+.borda {
+    border: none;
+    background-color: rgb(250, 191, 250);
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 1em;
+    padding: 15px;
+    
+}
+
+.primeira{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 1em;
+
+}
+
+.segunda {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+.terceira {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+legend{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+.aceppt {
+    margin-left:250px;
+    
+    
+
+}
+
+
+
+.check {
+    
+    
+    color: blanchedalmond;
+    font-size: 35px;
+    text-align: center;
+
+   
+}
+
+hr {
+    background-color: #D92BCC;
+    padding:1px;
+    
+}
+
+#nome { 
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    color: black;
+    width: 90%;
+    padding: 3px;
+    margin-left:35px;
+
+}
+
+#nome:hover {
+    background-color: #ffffff;
+}
+
+#lnome {
+
+    font-size: 20px;
+    margin-left:35px
+}
+
+#email {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding: 3px;
+    margin-left:35px
+    
+}
+
+#email:hover {
+    background-color: #ffffff;
+}
+
+#lemail {
+    font-size: 20px;
+    margin-left:35px
+    
+    
+}
+
+#cel {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding: 3px;
+    margin-left:35px
+    
+}
+
+#cel:hover{
+    background-color: #ffffff;
+}
+
+#lcel {
+    font-size: 20px;
+    margin-left:35px
+    
+}
+
+.end {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding: 3px;
+    margin-left:35px
+   
+    
+}
+
+.end:hover{
+    background-color: #ffffff;
+}
+
+#lendereço {
+    font-size: 20px;
+    margin-left:35px
+}
+
+#cep {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 40%;
+    padding: 3px;
+    margin-left:35px
+
+}
+
+#cep:hover{
+    background-color: #ffffff;
+}
+
+#lcep {
+    font-size: 20px;
+    margin-left:35px
+}
+
+#nascimento {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 43%;
+    padding: 2px;
+    margin-left: 45px;
+}
+
+#nascimento:hover{
+    background-color: #ffffff;
+}
+
+#lnascimento {
+    font-size: 20px;
+    margin-left: 375px
+}
+
+
+.cursoum {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding: 3px;
+    margin-left: 35px;
+}
+
+.cursoum:hover{
+    background-color: #ffffff;
+}
+
+.lcurso {
+    font-size: 20px;
+    margin-left:35px
+}
+
+.horasum {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 43%;
+    padding: 2px;
+    margin-left: 35px;
+}
+
+.horasum:hover{
+    background-color: #ffffff;
+}
+
+.lhoras {
+    font-size: 20px;
+    margin-left:35px;
+    
+}
+
+.dataconclusao {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 42%;
+    padding: 2px;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.dataconclusao:hover{
+    background-color: #ffffff;
+}
+
+.ldatacoclusao {
+    font-size: 20px;
+    margin-left: 363px;
+}
+
+.empresa {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 40%;
+    padding: 2px;
+    font-size: 20px;
+    margin-left: 33px;
+}
+
+.empresa:hover{
+    background-color: #ffffff;
+}
+
+.lempresa {
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.atual{
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    padding: 1px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.atual:hover{
+    background-color: #ffffff;
+}
+
+.latual {
+    font-size: 20px;
+    margin-left: 260px;
+}
+
+.tempo {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    padding:1px;
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+.tempo:hover{
+    background-color: #ffffff;
+}
+
+.ltempo {
+    font-size: 20px;
+    margin-left: 75px;
+    
+}
+
+.cargo {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding:2px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.cargo:hover{
+    background-color: #ffffff;
+}
+
+.lcargo {
+    font-size: 20px;
+    margin-left: 35px;
+    
+}
+
+.descrição {
+    border: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(250, 191, 250);
+    width: 90%;
+    padding: 2px;
+    margin-left: 35px;
+    
+}
+
+.descrição:hover{
+    background-color: #ffffff;
+}
+
+.ldescrição {
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.dados {
+    
+    background: linear-gradient(to bottom, #FF0066,#FF1794,#FF36CC,#D92BCC);
+    border: 1px;   
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    border-radius: 15%;
+    
+}
+
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-left: 570px;
+    font-size: 25px;
+    border-radius:30px;
+    background: linear-gradient(#FF0066,#FF1794,#FF36CC,#D92BCC);
+    border-color: white;
+    color: white;
+    opacity: 1.0;
+    text-align: center;
+}
+
